@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FREECODECAMP SURVEY FORM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">FREECODECAMP SURVEY FORM</h1>
+    <p id="description">THANK YOU FOR TAKING THE TIME TO HELP US IMPROVE THE PLATFORM</p>
+    <form id="survey-form">
+        <div class="input-element">
+            <label id="name-label">NAME</label>
+            <input required placeholder="Enter your name" type="text" id="name">
+        </div>
+
+        <div class="input-element">
+            <label id="email-label">EMAIL</label>
+            <input required placeholder="Enter your Email" type="email" id="email">
+        </div>
+
+        <div class="input-element">
+            <label id="number-label">NUMBER</label>
+            <input placeholder="Number" type="number" min="3" max="10" id="number">
+
+        </div>
+
+        <div class="input-element">
+            <p>WHICH OPTION BEST DESCRIBES YOUR CURRENT ROLE?</p>
+            <select name="dropdown" id="dropdown">
+                <option value="Student">Student</option>
+                <option value="Full Time Job">Full Time Job</option>
+                <option value="Full Time Learner">Full Time Learner</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+
+        <div>
+            <p>WOULD YOU RECOMMEND FREECODECAMP TO A FRIEND?</p>
+
+            <div class="input-element"> 
+                <label><input type="radio" name="ideas" value="Definitely">Definitely</label>
+            </div>
+
+            <div class="input-element"> 
+                <label><input type="radio" name="ideas" value="Maybe">Maybe</label>
+            </div>
+
+            <div class="input-element"> 
+                <label><input type="radio" name="ideas" value="Not sure">Not sure</label>
+            </div>
+
+            <p>
+                WHAT IS YOUR FAVORITE FEATURE OF FREECODECAMP?
+            </p> 
+        </div>
+
+        <div id="favorite-feature">
+            <div class="input-element"> 
+                <label>
+                    <input type="checkbox" name="ideas" value="Front-end Projects">
+                    Front-end Projects
+                </label>
+            </div>
+
+            <div class="input-element"> 
+                <label>
+                    <input type="checkbox" name="ideas" value="Back-end Projects">
+                    Back-end Projects
+                </label>
+            </div>
+
+            <div class="input-element"> 
+                <label>
+                    <input type="checkbox" name="ideas" value="Data Visualization">
+                    Data Visualization
+                </label>
+            </div>
+
+            <div class="input-element"> 
+                <label>
+                    <input type="checkbox" name="ideas" value="Challenges">
+                    Challenges
+                </label>
+            </div>
+    
+            <div class="input-element"> 
+                <label>
+                    <input type="checkbox" name="ideas" value="Open Source Community">
+                    Open Source Community
+                </label>
+            </div>
+    
+            <div class="input-element"> 
+                <label>
+                    <input type="checkbox" name="ideas" value="Gitter help rooms">
+                    Gitter help rooms
+                </label>
+            </div>
+    
+            <div class="input-element"> 
+                <label>
+                    <input type="checkbox" name="ideas" value="Videos">
+                    Videos
+                </label>
+            </div>
+    
+            <div class="input-element"> 
+                <label>
+                    <input type="checkbox" name="ideas" value="City Meetups">
+                    City Meetups
+                </label>
+            </div>
+    
+            <div class="input-element"> 
+                <label>
+                    <input type="checkbox" name="ideas" value="Wiki">
+                    Wiki
+                </label>
+            </div>
+          
+            <div class="input-element"> 
+                <label>
+                    <input type="checkbox" name="ideas" value="Forum">
+                    Forum
+                </label>
+            </div>
+            
+            <div class="input-element"> 
+                <label>
+                    <input type="checkbox" name="ideas" value="Additional Courses">
+                    Additional Courses
+                </label>
+            </div>
+        </div>
+        <div>
+            <p>ANY COMMENTS OR SUGGESTIONS?</p>
+            <textarea placeholder="ENTER YOUR COMMENT HERE..." name="textarea" id="textarea" cols="30" rows="10"></textarea>
+        </div>
+          <div>
+            <button id="submit" type="submit" class="submit-button">Submit</button>
+          </div>
+        
+        
+    </form>
+</body>
+</html>
